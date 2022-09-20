@@ -1,9 +1,84 @@
 {
   "books": [
     {
-      "id": "mtm-epttym",
+      "id": "1-mtm-epttym",
       "title": "Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith",
-      "image": "https://images.contentstack.io/v3/assets/bltb2d6007aa084ac44/bltf7dc1d70ed2b4ec9/632238d8809ac764c96d81a5/Monolith_to_Microservices-_Evolutionary_Patterns_to_Transform_Your_Monolith.jpg"
+      "description": "How do you detangle a monolithic system and migrate it to a microservice architecture? How do you do it while maintaining business-as-usual? As a companion to Sam Newman's extremely popular Building Microservices, this new book details a proven method for transitioning an existing monolithic system to a microservice architecture. With many illustrative examples, insightful migration patterns, and a bevy of practical advice to transition your monolith enterprise into a microservice operation, this practical guide covers multiple scenarios and strategies for a successful migration, from initial planning all the way through application and database decomposition. You'll learn several tried and tested patterns and techniques that you can use as you migrate your existing architecture.",
+      "amazonUrl": "https://www.amazon.com/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848/ref=sr_1_1?crid=1UFTGZ4PSNINW&keywords=microservices+books+monolith+to+microservices&qid=1663672495&sprefix=microservices+books+monolith+to+microservice%2Caps%2C224&sr=8-1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51QKwzDE4FL._SX258_BO1,204,203,200_.jpg",
+      "author": "Sam Newman"
+    },
+    {
+      "id": "2-bm-dfgs",
+      "title": "Building Microservices: Designing Fine-Grained Systems",
+      "description": "As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its own host of problems. This expanded second edition takes a holistic view of topics that you need to consider when building, managing, and scaling microservices architectures. Through clear examples and practical advice, author Sam Newman gives everyone from architects and developers to testers and IT operators a firm grounding in the concepts. You'll dive into the latest solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services. Real-world cases reveal how organizations today manage to get the most out of these architectures. Microservices technologies continue to move quickly. This book brings you up to speed.",
+      "amazonUrl": "https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1492034029/ref=sr_1_3?crid=1B7VXDT7NIO0A&keywords=microservices+books&qid=1663672480&sprefix=microservices+boo%2Caps%2C241&sr=8-3",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/519hB5niytL._SX379_BO1,204,203,200_.jpg",
+      "author": "Sam Newman"
+    },
+    {
+      "id": "3-mp-weij",
+      "title": "Microservices Patterns: With examples in Java",
+      "description": "Microservices Patterns teaches you 44 reusable patterns to reliably develop and deploy production-quality microservices-based applications. This invaluable set of design patterns builds on decades of distributed system experience, adding new patterns for composing services into systems that scale and perform under real-world conditions. More than just a patterns catalog, this practical guide with worked examples offers industry-tested advice to help you design, implement, test, and deploy your microservices-based application.",
+      "amazonUrl": "https://www.amazon.com/dp/1617294543/ref=sspa_dk_detail_1?psc=1&pd_rd_i=1617294543&pd_rd_w=Q5MfT&content-id=amzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54&pf_rd_p=46bad5f6-1f0a-4167-9a8b-c8a82fa48a54&pf_rd_r=GV1X2PFP0BWNEK40QE6R&pd_rd_wg=APwbu&pd_rd_r=d48f2211-2a71-4c4b-ae78-501010b8258a&s=books&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41cnX+sEbFL._SX397_BO1,204,203,200_.jpg",
+      "author": "Chris Richardson"
+    },
+    {
+      "id": "4-ddia-tbibrsams",
+      "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+      "description": "Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have an overwhelming variety of tools, including relational databases, NoSQL datastores, stream or batch processors, and message brokers. What are the right choices for your application? How do you make sense of all these buzzwords? In this practical and comprehensive guide, author Martin Kleppmann helps you navigate this diverse landscape by examining the pros and cons of various technologies for processing and storing data. Software keeps changing, but the fundamental principles remain the same. With this book, software engineers and architects will learn how to apply those ideas in practice, and how to make full use of data in modern applications.",
+      "amazonUrl": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=d_pd_sbs_sccl_2_2/134-9179628-5833522?pd_rd_w=f9Tjo&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=V04CCXXZZQ4SKXEEY7TK&pd_rd_wg=03qdM&pd_rd_r=34cb256c-742a-40ef-8cf9-accbb546fe50&pd_rd_i=1449373321&psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51ZSpMl1-LL._SX379_BO1,204,203,200_.jpg",
+      "author": "Martin Kleppmann"
+    },
+    {
+      "id": "5-jms-cdea",
+      "title": "Java Message Service: Creating Distributed Enterprise Applications",
+      "description": "Java Message Service, Second Edition, is a thorough introduction to the standard API that supports 'messaging' the software-to-software exchange of crucial data among network computers. You'll learn how JMS can help you solve many architectural challenges, such as integrating dissimilar systems and applications, increasing scalability, eliminating system bottlenecks, supporting concurrent processing, and promoting flexibility and agility.",
+      "amazonUrl": "https://www.amazon.com/gp/product/B002MV2Z3K/ref=dbs_a_def_rwt_bibl_vppi_i2",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HZHudIGNL._SX379_BO1,204,203,200_.jpg",
+      "author": "Mark Richards"
+    },
+    {
+      "id": "6-fosa-aea",
+      "title": "Fundamentals of Software Architecture: An Engineering Approach",
+      "description": "Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no real guide exists to help developers become architects. Until now. This book provides the first comprehensive overview of software architecture's many aspects. Aspiring and existing architects alike will examine architectural characteristics, architectural patterns, component determination, diagramming and presenting architecture, evolutionary architecture, and many other topics. Mark Richards and Neal Ford—hands-on practitioners who have taught software architecture classes professionally for years—focus on architecture principles that apply across all technology stacks. You'll explore software architecture in a modern light, taking into account all the innovations of the past decade.",
+      "amazonUrl": "https://www.amazon.com/gp/product/B0849MPK73/ref=dbs_a_def_rwt_bibl_vppi_i0",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51RfC2gDwuL._SX379_BO1,204,203,200_.jpg",
+      "author": "Mark Richards"
+    },
+    {
+      "id": "7-sa-thp",
+      "title": "Software Architecture: The Hard Parts",
+      "description": "There are no easy decisions in software architecture. Instead, there are many hard parts--difficult problems or issues with no best practices--that force you to choose among various compromises. With this book, you'll learn how to think critically about the trade-offs involved with distributed architectures.",
+      "amazonUrl": "https://www.amazon.com/gp/product/B09H2H5QKC/ref=dbs_a_def_rwt_bibl_vppi_i1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51oVT2PQgPL._SX379_BO1,204,203,200_.jpg",
+      "author": "Neal Ford"
+    },
+    {
+      "id": "8-pt-myjas",
+      "title": "Programming TypeScript: Making Your JavaScript Applications Scale",
+      "description": "Any programmer working with a dynamically typed language will tell you how hard it is to scale to more lines of code and more engineers. That's why Facebook, Google, and Microsoft invented gradual static type layers for their dynamically typed JavaScript and Python code. This practical book shows you how one such type layer, TypeScript, is unique among them: it makes programming fun with its powerful static type system.",
+      "amazonUrl": "https://www.amazon.com/Programming-TypeScript-Making-JavaScript-Applications/dp/1492037656/ref=d_bmx_dp_k33dzyzn_sccl_1_3/134-9179628-5833522?pd_rd_w=Kwfq6&content-id=amzn1.sym.e8434dc0-bea5-41a2-9054-015496b4c898&pf_rd_p=e8434dc0-bea5-41a2-9054-015496b4c898&pf_rd_r=778FVYMCXR50BH66RP14&pd_rd_wg=UTbSh&pd_rd_r=a9ee0452-f390-4ecf-a2c6-6e96fd232572&pd_rd_i=1492037656&psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51csAp-ykgL._SX379_BO1,204,203,200_.jpg",
+      "author": "Boris Cherny"
+    },
+    {
+      "id": "9-et-62swtiyt",
+      "title": "Effective TypeScript: 62 Specific Ways to Improve Your TypeScript",
+      "description": "TypeScript is a typed superset of JavaScript with the potential to solve many of the headaches for which JavaScript is famous. But TypeScript has a learning curve of its own, and understanding how to use it effectively can take time. This book guides you through 62 specific ways to improve your use of TypeScript.",
+      "amazonUrl": "https://www.amazon.com/Effective-TypeScript-Specific-Ways-Improve/dp/1492053740/ref=pd_bxgy_img_sccl_1/134-9179628-5833522?pd_rd_w=aVQOM&content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_p=7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_r=E2RPX77461MB36VV0BJN&pd_rd_wg=7RpJn&pd_rd_r=68a3ea34-42d5-4310-837f-92bab97e83dc&pd_rd_i=1492053740&psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41nCjLf7YiL._SX379_BO1,204,203,200_.jpg",
+      "author": "Dan Vanderkam"
+    },
+    {
+      "id": "10-j-tdgmtwmupl",
+      "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+      "description": "JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. You’ll find illuminating and engaging example code throughout.",
+      "amazonUrl": "https://www.amazon.com/JavaScript-Definitive-Most-Used-Programming-Language/dp/1491952024/ref=pd_bxgy_img_sccl_2/134-9179628-5833522?pd_rd_w=0WdPF&content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_p=7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_r=8Q7H5VKD4SZ67V3FXD22&pd_rd_wg=QvMBG&pd_rd_r=e38a4c1f-5181-4f44-ac70-01b7b8a84940&pd_rd_i=1491952024&psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HbNW6RzhL._SX375_BO1,204,203,200_.jpg",
+      "author": "David Flanagan"
     }
   ]
 }
